@@ -79,10 +79,5 @@ function isShopifySite() {
   
     document.body.style.marginTop = banner.offsetHeight + 'px';
   }
-  
-  setTimeout(() => {
-    if (isShopifySite()) {
-      injectBanner();
-    }
-  }, 2000);
+
   
