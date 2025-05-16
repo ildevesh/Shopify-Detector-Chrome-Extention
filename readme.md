@@ -14,6 +14,7 @@ This Chrome extension automatically detects if the current website is built usin
 - If the website is detected as Shopify-based, a green banner will appear at the top of the page stating **"Built with Shopify"**.
 - The banner includes a close (×) button to dismiss it.
 - The banner also displays the branding **"Designed by ildevesh"** below the main message.
+- If you want to remove the branding text, go to the line that sets branding.textContent in content.js and delete or comment out that line.
 
 ## Files
 - `manifest.json` — Extension configuration.
